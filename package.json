@@ -1,0 +1,25 @@
+{
+  "name": "register-login",
+  "version": "1.0.0",
+  "description": "back-end for register and login form",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server"
+  },
+  "author": "Masoud Yari",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-flash": "0.0.2",
+    "express-handlebars": "^4.0.5",
+    "express-session": "^1.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.20",
+    "node-localstorage": "^2.1.6",
+    "nodemon": "^2.0.4"
+  }
+}
